@@ -36,9 +36,7 @@
         </license>
     </licenses>
 
-    <scm child.scm.connection.inherit.append.path="false"
-         child.scm.developerConnection.inherit.append.path="false"
-         child.scm.url.inherit.append.path="false">
+    <scm child.scm.connection.inherit.append.path="false" child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false">
         <url>https://github.com/quarkusio/quarkus</url>
         <connection>scm:git:git@github.com:quarkusio/quarkus.git</connection>
         <developerConnection>scm:git:git@github.com:quarkusio/quarkus.git</developerConnection>
@@ -76,7 +74,7 @@
         <antlr.version>4.13.0</antlr.version> <!-- version controlled by Hibernate ORM's needs -->
         <bytebuddy.version>1.15.11</bytebuddy.version> <!-- version controlled by Hibernate ORM's needs -->
         <hibernate-commons-annotations.version>7.0.3.Final</hibernate-commons-annotations.version> <!-- version controlled by Hibernate ORM's needs -->
-        <hibernate-reactive.version>2.4.6.Final</hibernate-reactive.version> <!-- highly sensitive to Hibernate ORM upgrades -->
+        <hibernate-reactive.version>3.1.12.Final</hibernate-reactive.version> <!-- highly sensitive to Hibernate ORM upgrades -->
         <hibernate-validator.version>8.0.2.Final</hibernate-validator.version>
         <hibernate-search.version>7.2.3.Final</hibernate-search.version>
 
